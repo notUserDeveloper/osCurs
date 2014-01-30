@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fbcab2fa-4761-40aa-b435-850756df7066"
+  name="Managers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d1420f14-d55b-46db-9ae9-021dc381c400"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebService.Managers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e65cac1d-5314-41be-9279-bbd024e0b2c4"
+        name="CalculateManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="435bea17-d538-49a3-9d27-50fe8edafd5f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6228ee7-3192-4eef-8138-ad7a0ac17e38"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="212e4227-aea5-4fde-8646-5be93e75c6b6">
+                <propertyInstance
+                  Id="c187b000-5297-482b-a05b-631f7e8062f4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfd49f1f-b5ac-46ae-885a-f729b7493133">
+                <propertyInstance
+                  Id="2f7b89fb-6046-498d-a21c-fdd9f39a15ea"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="500654fa-39f0-4990-b6ac-ecb05e50f2ff">
+                <propertyInstance
+                  Id="89ebf389-90e8-4d59-b686-b4fde0eb5c35"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a7d2ba8-b549-4734-bc47-44776a68c665">
+                <propertyInstance
+                  Id="4572e6df-8818-47ac-aa84-425c65c050e9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85875fa5-517c-4c92-88eb-7a323419ac87">
+                <propertyInstance
+                  Id="2f93415e-35ba-44a1-aad3-80dd496ac61c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="09b07f2f-148f-4000-b4da-557d744f4d13"
+            name="_calculate"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f11f6f8a-793e-4198-b748-0a96991740f6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D_calculate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="112c0b3b-e099-4f9f-b1bb-2ee349438f37"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b893e5e6-bfe3-4878-bd83-da5c12e93305">
+                    <propertyInstance
+                      Id="36fd8ba9-7907-4567-b243-d4d599ba9403"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42580a9f-0b2f-438b-94d4-f76dd83fcca6">
+                    <propertyInstance
+                      Id="0dce1101-03a1-46de-8839-e496f35b7c47"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa37e59f-4b88-4c68-8180-1fee31185498">
+                    <propertyInstance
+                      Id="4eb38eb9-d875-4703-8b5b-f7aea54a990f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d27d146-9fbf-4fe1-a21e-e020085a12c4">
+                    <propertyInstance
+                      Id="baae1861-40df-4981-b93c-8ccd6f698dfa"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56379a3e-1eed-408b-bbb5-7e8bdd818486">
+                    <propertyInstance
+                      Id="073c2736-6559-4b72-930a-8d7edf5a9931"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0096fc1b-a651-4a41-9ef5-0d2324846ec6"
+                LastKnownName="CalculateModel"
+                LastKnownLocation="Package1_0048.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7ae0eb29-9f23-41a0-8a5b-24b37d5c3714"
+            name="_variationManager"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cb890cde-94a3-404e-8d21-b210f8ba72f8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D_variationManager"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26cc3202-67bb-44a3-85f9-c4f81d5e27c0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="117b10ea-0047-49eb-8fc1-f67e9c9a6b8c">
+                    <propertyInstance
+                      Id="e03c5441-cafc-4922-a5de-07a065a736b1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8495dc16-b5e1-4f4c-adbd-dadf52bc146d">
+                    <propertyInstance
+                      Id="4fd3a3e6-af3f-44e6-8dff-2eb012a97f55"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14719896-bf8b-45ae-b74d-a8060caef2aa">
+                    <propertyInstance
+                      Id="61dff63c-14f3-4874-9b75-da0583acc0c3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24ac340c-97a7-4222-b1ea-6df84c9fbcd1">
+                    <propertyInstance
+                      Id="ce86213b-4e4f-4ff8-8153-b5e3ee1adc73"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bc45689-f38c-4918-8d7b-e0845fa37478">
+                    <propertyInstance
+                      Id="51237741-e7ff-439f-a11b-71250e841c44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6d170b9c-3b1d-4c08-89a5-4497ed85606c"
+                LastKnownName="VariationManager"
+                LastKnownLocation="Package5_0048.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e2a0bb92-5e26-4438-a7fa-3708ffb847fe"
+            name="CalculateManager"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="183c4855-c32d-436a-8f31-79c8e1263406"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DCalculateModel)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DVariationManager)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b758e953-71ed-4685-8fca-6fcfe88128fe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cc4fcd5-be4c-4beb-be72-7e4722ff9ff2">
+                    <propertyInstance
+                      Id="97ffb6ae-85e2-4489-8021-b0b5925b229c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3619ba07-69c9-4ccf-b839-e49c3d8baf42">
+                    <propertyInstance
+                      Id="41bcf587-c570-4f90-9728-b62ef8e77efb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ee7ad01-55f5-46a8-b852-667de8b2a006">
+                    <propertyInstance
+                      Id="a737b8f3-915a-47c5-be2a-dfb58c7e3afd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c0a6271-1eea-477b-a0da-864696f935bf">
+                    <propertyInstance
+                      Id="f2351220-7355-4148-ab1b-21b0191a7166"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="320a146c-6676-465c-9cbe-b762afad864f">
+                    <propertyInstance
+                      Id="1a5e513c-5682-4a7a-9d7b-834e162c5581"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e067ec7-b959-4ecf-9790-075d4d378fda">
+                    <propertyInstance
+                      Id="e1461950-bfb5-41c6-8e8a-e69559d8fc80"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06096a67-3647-475e-93dd-8c4499b08b28"
+                  name="calculate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="582bbe1d-d9be-43ea-b475-50caab149002"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DCalculateModel)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DVariationManager)]) ParameterIdentifier%3Dcalculate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0096fc1b-a651-4a41-9ef5-0d2324846ec6"
+                      LastKnownName="CalculateModel"
+                      LastKnownLocation="Package1_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c92f7811-7f4a-49be-9a2e-b36ee2be5e8e"
+                  name="variationManager"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a7b57882-03b9-4188-b980-e2d39dea2519"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DCalculateModel)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DVariationManager)]) ParameterIdentifier%3DvariationManager"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6d170b9c-3b1d-4c08-89a5-4497ed85606c"
+                      LastKnownName="VariationManager"
+                      LastKnownLocation="Package5_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6236f307-4fe3-4469-83a6-5ba35735f26f"
+            name="TryCalculate"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7290260e-86da-4320-a017-08af946ce2a0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3DTryCalculate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a217000a-3f37-4728-8bfd-d6318202581b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47bfcf01-b829-4975-8142-96d959384819">
+                    <propertyInstance
+                      Id="fa6b866c-8bf0-4964-aead-2cf51774aa84"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7a3769f-6eaf-455c-8775-e49d62f0dec8">
+                    <propertyInstance
+                      Id="0af8b058-06c1-421c-b051-3f302616e015"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41663d60-b369-48e4-a58b-6ba8a4b0ffdd">
+                    <propertyInstance
+                      Id="acd154d5-289c-4a8a-a44f-a38c2f809b86"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e2fe244-427d-4c02-a833-368d16414ad8">
+                    <propertyInstance
+                      Id="d703fa94-cf29-4cbb-a108-aa408ce88f6d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36bc69b-b21c-4b44-a699-a2f72771c4d2">
+                    <propertyInstance
+                      Id="8aa865a6-4ad8-497e-a89d-4c151d2ac20f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d9afa23-339d-491a-aaff-af98f8eb7037">
+                    <propertyInstance
+                      Id="81189a82-d561-4bf2-a1ac-5f80824bb777"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="03401803-fd8d-46d7-8fce-ca2a533637e4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="77abc41a-440e-4a68-9698-721f4c7f7174"
+                      LastKnownName="Result"
+                      LastKnownLocation="Package1_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3e92ccc6-cebd-45d2-aa3d-3b8ac554db72"
+            name="IsAcceptablesCalculateError"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="98c44dfc-5987-4dee-9ddd-add0d37a47f5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsAcceptablesCalculateError OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb3bedb9-e1b1-476f-bcdb-ff147183db9f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f0e7c6f-dcbd-42a6-9b1e-56b3c37a5464">
+                    <propertyInstance
+                      Id="add43835-9910-4926-aef8-4c11ab32fe83"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a95ae2e0-6611-4431-a16c-3dfdc6384ce9">
+                    <propertyInstance
+                      Id="cc01e158-fd35-451d-907e-4a93949c4607"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75e97ad0-5939-4c2c-8785-1c7adcc5f18f">
+                    <propertyInstance
+                      Id="5a36f3e9-613a-4d9f-8fd8-5db363780185"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5938feb5-7185-4f26-80a9-5f71ab2b79e2">
+                    <propertyInstance
+                      Id="576be232-da89-4101-9c44-2ffc60a42dc6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2abc567d-5ea5-4d11-8fea-4d50cf3fbd33">
+                    <propertyInstance
+                      Id="0c6debcd-fd9c-4e42-bb4a-d1ded4da363e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0641e60-27fd-483e-bad5-2ec290673876">
+                    <propertyInstance
+                      Id="c4668ce4-e8a4-4a74-a89b-54954318fbd1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9f25d40a-8877-4628-bad1-b482de9625bb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="038473e5-e245-4672-92b9-10f0c68aa7ce"
+                  name="g"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2858584b-8f37-45b7-8f30-853123b32a19"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsAcceptablesCalculateError OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33c37b1b-9fba-4fd1-9b6a-304de7d56bbf"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="65d7c91e-1559-4426-8d6f-163e00782465"
+                  name="calculateError"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3dab1df0-a960-4cf8-aca1-d524f69f6a48"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsAcceptablesCalculateError OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3DcalculateError"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33c37b1b-9fba-4fd1-9b6a-304de7d56bbf"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="07b38c97-1c75-4a65-a032-7b6eca5046e0"
+                  name="sumWeightItem"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fac7a0df-9302-4cfc-9e77-1df8c5c2174a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsAcceptablesCalculateError OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3DsumWeightItem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33c37b1b-9fba-4fd1-9b6a-304de7d56bbf"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fe3f050f-3eb2-4f05-a065-9a9ee223f9ae"
+            name="CalcDifference"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4d71cd2f-5b83-449d-a3f1-cc33c2fc3e9e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DCalcDifference OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68adc1b0-3d42-47af-bae3-d81e34af82c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55e2aaf8-5bb7-40e2-917c-23b208dd3d23">
+                    <propertyInstance
+                      Id="9b80e41f-e46a-47bb-b60c-fc56a1c92d09"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2213f4be-43f1-44b6-8e75-3f0d74fe2ab9">
+                    <propertyInstance
+                      Id="4a6ece12-22c3-4126-9621-4795e00cbfc4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7351237c-523d-4afa-9955-b8c18c543d52">
+                    <propertyInstance
+                      Id="82a08a10-383b-4e65-8f62-f36e9bc60430"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e93c85e9-5c5b-4bb0-900c-d6797232725e">
+                    <propertyInstance
+                      Id="1e4cd87d-4852-42f0-a728-f170647a5658"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fc2c67b-f54e-4e18-8d0e-897d91fc8edc">
+                    <propertyInstance
+                      Id="8dbc80ec-dea7-4384-8f03-98650e916b0f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f57c4da-2c80-4d26-9565-45f9fbb540c5">
+                    <propertyInstance
+                      Id="98ac8150-bc7e-4cc4-a6ba-cd108b6e3ae6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59755f9a-b33b-46d2-b881-33bfeb5f01bc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33c37b1b-9fba-4fd1-9b6a-304de7d56bbf"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06c6b017-f505-45e9-95b4-01b21153ad9f"
+                  name="solution"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e24c4b72-a347-4e21-aac6-902ae796aaea"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DCalcDifference OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dsolution"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="76182ccc-c040-40d8-a14b-b9ee7dbc5be2"
+                      LastKnownName="Variation"
+                      LastKnownLocation="Package1_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="57416f1b-f6c4-49e4-9000-ee6e643672d3"
+                  name="sumWeightItem"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f8d7d632-fd63-45ad-9bd2-d50b70fec198"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DCalcDifference OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3DsumWeightItem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33c37b1b-9fba-4fd1-9b6a-304de7d56bbf"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="37dd2831-725d-49f9-ac55-b6be4548c6bf"
+            name="IsOneItemInKnapsack"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="214fa678-6a18-465c-ae90-0a7240aaa42e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsOneItemInKnapsack OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DItem)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1ae6b7d9-3a03-4009-8b78-ed4beba8a7d9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ef5dad4-53df-4e5d-95ff-1c762a48883b">
+                    <propertyInstance
+                      Id="63efdf57-058c-4a50-92f7-3ef3944ddc62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ea1db76-e8af-431f-a1d4-aceab7012cfc">
+                    <propertyInstance
+                      Id="19f1294f-42b7-404d-ba86-311ffe221fd5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="402ba0ee-fa28-4bfc-a5cb-c3716ad229a0">
+                    <propertyInstance
+                      Id="582171b8-b748-4f5e-889c-fac384083ea9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1972ed7-b074-45f3-87c2-37e5e451a7b2">
+                    <propertyInstance
+                      Id="8ea4e830-c7c5-4ddb-a3f9-28181265b751"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="626ba5dd-b607-4d04-8418-8b3e4d60f764">
+                    <propertyInstance
+                      Id="b5336a96-a26d-4774-af56-f4ffebcb4114"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb22b838-c5c2-4b08-8492-a496624bd6ad">
+                    <propertyInstance
+                      Id="db6329de-213b-42be-be0c-a3fd6d47c6b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5120441c-bacd-4fcf-a0ce-5f631c598e40"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5ef4c4a5-90b1-403a-bbc8-0da318e85c22"
+                  name="currentVariation"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="936ecba8-b2cc-49ff-aa7a-066a6f5c249b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsOneItemInKnapsack OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DItem)]))]) ParameterIdentifier%3DcurrentVariation"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="76182ccc-c040-40d8-a14b-b9ee7dbc5be2"
+                      LastKnownName="Variation"
+                      LastKnownLocation="Package1_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="053dc227-03b3-442a-a385-41dede88c6c0"
+                  name="items"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d15d2cdc-c8f6-4fa1-bcc7-2a66978d104f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsOneItemInKnapsack OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DItem)]))]) ParameterIdentifier%3Ditems"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="d46a3485-cc50-42ed-9d51-1f3275371fe0"
+                      LastKnownName="IEnumerable&lt;Item‎&gt;"
+                      LastKnownLocation="Package7_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f6e10f0a-0ae0-454f-894e-4ed165fc0a20"
+            name="GetVariationsCount"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aeefdd6e-5a10-4db3-b1b0-871ab8972a73"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3DGetVariationsCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="457150f2-de61-4ac2-b751-e1d3ec1fdba1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b99aee60-3bdc-4377-bcca-91ac978b3e14">
+                    <propertyInstance
+                      Id="8c6709c7-dabd-4c6b-8980-271b6e2fd6c7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b34622d9-ce45-43b5-a01b-9cb74eacf51d">
+                    <propertyInstance
+                      Id="59f3031e-8ec6-4da3-98b6-d81279bd1814"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a160e849-f896-41f7-81b6-b9a9e63fb8b8">
+                    <propertyInstance
+                      Id="0d60c2d0-ee8f-4437-9b44-2e09fcc451e6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13af3bd6-fef1-4641-bacb-4e0a9fea209c">
+                    <propertyInstance
+                      Id="3cb7dde8-620e-4ba5-ab81-16912d7843cd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5be42f97-dfa0-4d01-9f6c-21373dd6470d">
+                    <propertyInstance
+                      Id="c6827860-a3ef-4fcc-aee2-a988599552ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35cd6bc3-05d8-4137-b729-0150e5764374">
+                    <propertyInstance
+                      Id="b01cf286-020d-4f73-978d-02a46bdb9459"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9c830f7f-9746-4201-bbd0-33ca819e74b7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="689fc103-0949-4b36-86ad-2d08ebbd553c"
+            name="IsKnapsackAcceptables"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="421b58ed-b1b7-4c3c-add3-f617d90a91a0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsKnapsackAcceptables OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="530158fa-91f2-4f80-9c63-d6c398c18636"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a2527e2-8d6c-4b4a-9ecb-c30059f6cf4a">
+                    <propertyInstance
+                      Id="e91490b9-0871-4f47-a54f-766e31b1c89d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7544e94f-530a-4c30-a514-9d48b7ac4892">
+                    <propertyInstance
+                      Id="f0c80c68-8bd1-4b1c-8fac-185c5c1a50f5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75892263-e00d-4057-b700-b6d2cc38b721">
+                    <propertyInstance
+                      Id="62d2cbd1-6ca3-42d5-999d-eb400635aa61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dcdaa6f-0b6c-425d-83e3-ac8259f8bc8e">
+                    <propertyInstance
+                      Id="2b1e9039-b69e-48ae-a016-5eb8f2283729"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1b08796-8a9a-4fd3-b93a-c37310f765f2">
+                    <propertyInstance
+                      Id="a389bf10-b395-4718-8b14-309f77b55d8e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76cc4640-8de7-4935-b2c3-cc31274e27b9">
+                    <propertyInstance
+                      Id="e44b6953-0159-4ba9-8ea2-73cbee34b542"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99fc3f6a-80de-4235-bf7d-6c7069f70c00"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="76cbd6c8-764f-433b-8a57-d2d1b28e6f91"
+                  name="currentVariation"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="40d748ea-fc08-4fc5-a27e-9ef0a9d90919"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DCalculateManager Member%3D(Name%3DIsKnapsackAcceptables OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation)]) ParameterIdentifier%3DcurrentVariation"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="76182ccc-c040-40d8-a14b-b9ee7dbc5be2"
+                      LastKnownName="Variation"
+                      LastKnownLocation="Package1_0048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6d170b9c-3b1d-4c08-89a5-4497ed85606c"
+        name="VariationManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e3202be9-4560-46ab-9742-542e70859acb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Managers Type%3DVariationManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6ee49fc3-49e8-4de8-ab64-bca37dce6369"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="60bfeaac-ac58-444d-be8a-a41947a0370a">
+                <propertyInstance
+                  Id="b5deef13-4af1-48ed-9241-9d5dc15a5bf2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab01fd81-81b2-4448-9451-93834b65bacc">
+                <propertyInstance
+                  Id="1bfa0dae-1410-44c7-a3fc-d671ed7b68fb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d62b086-47ec-4812-a3a0-cbac1a270905">
+                <propertyInstance
+                  Id="0bc5ccd4-4cf4-45d3-9479-b200842ff06d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="67962e01-f147-4c7f-b229-90f6efe2afbe">
+                <propertyInstance
+                  Id="c365c84f-3a23-4ad3-ad52-4c8bdcc12adf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4206898d-8aac-4ff2-8dbc-d0087ac7ecb3">
+                <propertyInstance
+                  Id="65fecdf0-5fd9-48d3-a740-8edd728cc9a8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

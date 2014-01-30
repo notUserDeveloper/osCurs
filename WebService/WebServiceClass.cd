@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WebService.Helpers.DBCon">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DBConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Helpers.SequenceHelper">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\SequenceHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.CalculateManager">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAAAAAAAAAAAwAAAAAQAAIIgAAAAAA=</HashCode>
+      <FileName>Managers\CalculateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.ChartManager">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ChartManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.ExampleManager">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgAAAAAEAAAAAAAIAAAAAAAAAAAgAAAAEAAA=</HashCode>
+      <FileName>Managers\ExampleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.ItemManager" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.KnapsackManager">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABgAA=</HashCode>
+      <FileName>Managers\KnapsackManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Managers.VariationManager">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\VariationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.CalculateModel">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\CalculateModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.ChartView">
+    <Position X="3.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChartView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.ExampleModel" Collapsed="true">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ExampleModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.Item">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.Knapsack">
+    <Position X="1.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Knapsack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.Result">
+    <Position X="3.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.ResultViewModel" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>Models\ResultViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Models.Variation">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>Models\Variation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebService.Service1">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service1.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

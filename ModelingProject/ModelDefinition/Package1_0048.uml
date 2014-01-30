@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5f0ba5dd-cd30-4ba7-baf8-bb7217350c55"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1dd924db-1107-4901-b903-d4dda2d3d296"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebService.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="77abc41a-440e-4a68-9698-721f4c7f7174"
+        name="Result"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e696a8dc-35f4-41e7-8780-e6787a257147"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4f736a77-48b6-4e1c-9b98-024a0ef66c72"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13acda14-9702-428a-97bb-b8ed01d15f7a">
+                <propertyInstance
+                  Id="3a217e01-2d14-4fc2-a51d-5659c17bc635"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a221b9a6-233f-44ab-90fd-8c4d5f87f25f">
+                <propertyInstance
+                  Id="5e60abd9-e7a6-4c75-a0c1-f610231a640d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d35a80f-ad2a-4ada-b533-249e1c49f391">
+                <propertyInstance
+                  Id="a1ae2d52-3bef-4d2a-b3a1-ebeeb28a5e38"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6600b95b-40ce-4904-8f2e-90a95506ef4d">
+                <propertyInstance
+                  Id="8ab0c1c4-81a0-47ab-b6dc-83e97ae5a272"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="417787ff-19d2-477c-bb10-61e1b21f0ec2">
+                <propertyInstance
+                  Id="252a5d60-759a-4d0a-850e-9d2bb97a4034"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0096fc1b-a651-4a41-9ef5-0d2324846ec6"
+        name="CalculateModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1c684310-6cdb-4d84-b50f-8710b73a557a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DCalculateModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="49976620-940d-45f9-8b54-d53fd2f0505d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99f19ae8-1e5e-40dc-bfb9-807f6b609a7d">
+                <propertyInstance
+                  Id="ac4fbb3b-c501-47ea-bec7-b9e23b35a145"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ecf6669-2cd1-4331-b38d-5322101d1ed1">
+                <propertyInstance
+                  Id="8e633e10-6789-4132-ae66-acb62702bccc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13da2fb4-2f8e-4996-9259-d04cf47d2ba6">
+                <propertyInstance
+                  Id="e769020d-80c7-4d61-bf1e-af8c99bce6e6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d81a7e7-38f1-4a54-9203-73b00bbf8713">
+                <propertyInstance
+                  Id="2d5271bf-08e6-4727-ad91-f44a240536b7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09883d18-496b-4dc8-8b82-8633341b11fc">
+                <propertyInstance
+                  Id="50b1da47-e801-4335-9fa0-38db1a0ad9df"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76182ccc-c040-40d8-a14b-b9ee7dbc5be2"
+        name="Variation"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bde9f122-d9b9-4d38-bd4f-faf8aebfa0c0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DVariation"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="68717cf0-5135-418c-b8fb-cf8487ed37ac"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f84eeecd-ccf8-4e5d-b59c-56eed1e79519">
+                <propertyInstance
+                  Id="54ea10af-d719-42a5-898c-ee20b19aa8af"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="212b2304-747b-49f3-8756-2522f3ade42a">
+                <propertyInstance
+                  Id="c298ec6c-757c-42eb-9b41-34531f238a8e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d1181fb-3d24-47a2-b12c-94e96360d9a0">
+                <propertyInstance
+                  Id="fb308f1f-d717-49be-86be-a25cdb31b4c2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="963cdbbd-d16d-42f0-afd8-43099b2a35fe">
+                <propertyInstance
+                  Id="def1f325-cd34-4ee3-a3ac-96e87a020a6e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e7bf7cd-c06e-4b20-8552-1deb48de22a8">
+                <propertyInstance
+                  Id="2d6f66c7-b262-4bfe-9f49-9d5ddac74cfe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e47fb23c-5e6c-41c7-ad40-9b5a05a1f681"
+        name="Item"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9e6ed0b2-46f6-494d-910c-4044d6fa0079"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fgit%2FosCurs%2FWebService%2Fbin%2FWebService.dll Namespace%3DWebService.Models Type%3DItem"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5ed89dfd-b568-48d7-8d55-2a91fae786f7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9da21383-e92b-4d21-96ca-7b582d2dd7df">
+                <propertyInstance
+                  Id="b9f1ac0b-b6fb-43b4-8ff7-520fc1af81c3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="212a93b8-aa71-44c7-a27b-b2f8df76c9fa">
+                <propertyInstance
+                  Id="cc7ed82b-2b85-4fb9-9c4f-e7248386449d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49c2bc14-4803-4d82-877a-d74213bbcffa">
+                <propertyInstance
+                  Id="5754dd0e-5f31-4aa4-88eb-3a3d360d96b5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="653c1dc2-8b58-4ba9-87db-a930c8d297e1">
+                <propertyInstance
+                  Id="ccbe3636-0642-4109-813b-d2c090ed40a1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="afb6d183-1585-4318-99a7-c05ff3ae410e">
+                <propertyInstance
+                  Id="73cd3758-bc6e-4061-9a28-addd966a68fa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

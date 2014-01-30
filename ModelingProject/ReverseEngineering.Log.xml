@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-01-27T00:48:57" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '594fa18c-675b-4cc0-a9ef-07eaa2bd605d' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::IEnumerable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::IEnumerable&lt;Item‎&gt;' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager' -  (Class)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::_calculate' -  (Property)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::_variationManager' -  (Property)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalcDifference' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalcDifference::solution' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalcDifference::sumWeightItem' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalculateManager' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalculateManager::calculate' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::CalculateManager::variationManager' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::GetVariationsCount' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsAcceptablesCalculateError' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsAcceptablesCalculateError::calculateError' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsAcceptablesCalculateError::g' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsAcceptablesCalculateError::sumWeightItem' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsKnapsackAcceptables' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsKnapsackAcceptables::currentVariation' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsOneItemInKnapsack' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsOneItemInKnapsack::currentVariation' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::IsOneItemInKnapsack::items' -  (Parameter)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::CalculateManager::TryCalculate' -  (Operation)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Managers::VariationManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Models' -  (Package)" />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Models::CalculateModel' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Models::Item' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Models::Result' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::WebService::Models::Variation' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="High" Text="(8) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-01-27T00:49:00" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

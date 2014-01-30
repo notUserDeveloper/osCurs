@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="Web.MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css"/>
+        <script type="text/javascript" src="/Scripts/jquery-1.9.1.js"> </script>
+        <script type="text/javascript" src="/Scripts/bootstrap.js"> </script>
+        <title>About</title>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div class="container">
+                
+
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/About.aspx">Задача выбора рюкзака</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/Manual.aspx">Ручной ввод</a></li>
+                            <li><a href="/Database.aspx">Выбор из базы</a></li>
+                            <li><a href="/Resault.aspx">Результаты</a></li>
+                            <li><a href="/Performance.aspx">Производительность</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown navbar-right">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Контрольные примеры<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Resault.aspx?idExp=18">Пример 1</a></li>
+                                    <li><a href="/Resault.aspx?idExp=1002">Пример 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="row center-block">
+                    <asp:ContentPlaceHolder runat="server" ID="Mbody" />
+                </div>
+
+            </div> <!-- /container -->
+
+        </form>
+    </body>
+</html>
